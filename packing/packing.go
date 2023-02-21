@@ -2,8 +2,9 @@ package packing
 
 import (
 	"fmt"
-	"github.com/dati-mipt/dhsbpp/tree"
 	"sort"
+
+	"github.com/iluhinsky/dhsbpp/tree"
 )
 
 var AlgorithmPackingFunc func(*tree.PartitionNode, []*Bin) []*Bin

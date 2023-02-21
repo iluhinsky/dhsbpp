@@ -2,11 +2,12 @@ package vizualize
 
 import (
 	"fmt"
-	"github.com/dati-mipt/dhsbpp/packing"
-	"github.com/dati-mipt/dhsbpp/tree"
 	"os"
 	"os/exec"
 	"sort"
+
+	"github.com/iluhinsky/dhsbpp/packing"
+	"github.com/iluhinsky/dhsbpp/tree"
 )
 
 type DotNode struct {

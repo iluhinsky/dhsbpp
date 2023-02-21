@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dati-mipt/dhsbpp/hierarchy"
-	"github.com/dati-mipt/dhsbpp/packing"
-	"github.com/dati-mipt/dhsbpp/tree"
-	"github.com/dati-mipt/dhsbpp/vizualize"
+	"github.com/iluhinsky/dhsbpp/hierarchy"
+	"github.com/iluhinsky/dhsbpp/packing"
+	"github.com/iluhinsky/dhsbpp/tree"
+	"github.com/iluhinsky/dhsbpp/vizualize"
 )
 
 var datasetName string
